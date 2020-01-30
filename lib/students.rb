@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT * FROM students.rb ORDER BY age DESC LIMIT 1;
+  SELECT * FROM student ORDER BY age DESC LIMIT 1;
 end
 
 def lowest_student_gpa
